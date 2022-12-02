@@ -27,6 +27,8 @@
     "fuzzysort.js",
     "fuzzysort.min.js",
     "index.d.ts"
-  ]
-
+  ],
+  "dependencies": {
+    "uglify-js": "^3.17.0"
+  }
 }
