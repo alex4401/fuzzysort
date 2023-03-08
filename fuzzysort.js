@@ -248,7 +248,7 @@ var algorithmSpaces = (preparedSearch, target) => {
 
     // allows a search with spaces that's an exact substring to score well
     var allowSpacesResult = algorithm(preparedSearch, target, /*allowSpaces=*/true)
-    if (allowSpacesResult !== NULL && allowSpacesResult.score > score) {
+    if (allowSpacesResult !== null && allowSpacesResult.score > score) {
         return allowSpacesResult
     }
 
